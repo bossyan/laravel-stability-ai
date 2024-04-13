@@ -89,10 +89,6 @@ class StabilityAIClient
                             'contents' => $params['weight'] ?? 1
                         ],
                         [
-                            'name' => 'style_preset',
-                            'contents' => $params['style_preset']
-                        ],
-                        [
                             'name' => 'samples',
                             'contents' => $params['samples'] ?? 4
                         ],
